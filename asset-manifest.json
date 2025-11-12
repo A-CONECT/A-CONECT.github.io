@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.9df5f354.css",
-    "main.js": "/static/js/main.e3411dfa.js",
+    "main.js": "/static/js/main.ccb6f5ee.js",
     "static/js/453.e76c913f.chunk.js": "/static/js/453.e76c913f.chunk.js",
     "index.html": "/index.html",
     "static/media/aconect-logo.svg": "/static/media/aconect-logo.0dd8a1d113efc0a0d78ee73f3db8060a.svg",
     "main.9df5f354.css.map": "/static/css/main.9df5f354.css.map",
-    "main.e3411dfa.js.map": "/static/js/main.e3411dfa.js.map",
+    "main.ccb6f5ee.js.map": "/static/js/main.ccb6f5ee.js.map",
     "453.e76c913f.chunk.js.map": "/static/js/453.e76c913f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9df5f354.css",
-    "static/js/main.e3411dfa.js"
+    "static/js/main.ccb6f5ee.js"
   ]
 }
