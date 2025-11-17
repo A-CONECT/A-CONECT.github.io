@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c26ad7ee.css",
-    "main.js": "/static/js/main.d1bb3cdf.js",
-    "static/js/453.e76c913f.chunk.js": "/static/js/453.e76c913f.chunk.js",
+    "main.css": "/static/css/main.cd28249f.css",
+    "main.js": "/static/js/main.29717325.js",
+    "static/js/206.d25fd093.chunk.js": "/static/js/206.d25fd093.chunk.js",
     "index.html": "/index.html",
-    "static/media/aconect-logo.svg": "/static/media/aconect-logo.0dd8a1d113efc0a0d78ee73f3db8060a.svg",
-    "main.c26ad7ee.css.map": "/static/css/main.c26ad7ee.css.map",
-    "main.d1bb3cdf.js.map": "/static/js/main.d1bb3cdf.js.map",
-    "453.e76c913f.chunk.js.map": "/static/js/453.e76c913f.chunk.js.map"
+    "static/media/aconect-logo.svg": "/static/media/aconect-logo.0dd8a1d113efc0a0d78ee73f3db8060a.svg"
   },
   "entrypoints": [
-    "static/css/main.c26ad7ee.css",
-    "static/js/main.d1bb3cdf.js"
+    "static/css/main.cd28249f.css",
+    "static/js/main.29717325.js"
   ]
 }
