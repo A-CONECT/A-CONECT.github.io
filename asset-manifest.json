@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c93da3bb.css",
-    "main.js": "/static/js/main.1995f66c.js",
+    "main.css": "/static/css/main.25bddd21.css",
+    "main.js": "/static/js/main.a2d5f6dc.js",
     "static/js/206.0e62a84d.chunk.js": "/static/js/206.0e62a84d.chunk.js",
     "index.html": "/index.html",
     "static/media/aconect-logo.svg": "/static/media/aconect-logo.0dd8a1d113efc0a0d78ee73f3db8060a.svg"
   },
   "entrypoints": [
-    "static/css/main.c93da3bb.css",
-    "static/js/main.1995f66c.js"
+    "static/css/main.25bddd21.css",
+    "static/js/main.a2d5f6dc.js"
   ]
 }
