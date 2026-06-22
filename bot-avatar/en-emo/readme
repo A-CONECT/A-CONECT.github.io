@@ -1,0 +1,42 @@
+1. When AI speak, deafult looks too positive now. Different default or stop at last frame.
+each emotion ends use last frame of itself.
+transition from the last frame to next emotion: a unique video.
+
+2. When user speak, give minimal feedback like noding, moving head. 
+But eye contact must be kept with users. 
+Little movement like holding jaw ... 
+
+3. when finish responding. user don't speak, some invitation feedback. expression like "how's going on?". but do not speak
+
+-------------------------
+I got some feedback for emotion mechanism. Check all emotion in public/bot-avatar/en-v3 and reflect on the feedback below. Don't revise code now carefully think about it and tell me your thoughts on: reason behind, and most practical solution.
+
+1. cool emotion too similar to happy. revise the prompt regenerate cool. 
+
+2. love emotion context is confusing and seldom triggered. maybe change to agree/noding? or we can redeisgn some emotion. you can read all system logs in @logs/ about returned emotion and think about adding new OR break down high freq emotion to several new emtion. If you need emotion make sure it's easy to define generation prompt and don't be too similar to other emotions (like the cool emotion problem above)
+
+3. listening maybe default to @public/bot-avatar/en-v3/listening_L2.gif
+
+
+Dist info:
+- happy (~60%): Massively overused - dominates both reaction and self phases
+- cool (~20%): Frequently used as neutral fallback
+- thinking (~10%): Moderate usage
+- love (~5%): Rare, confusing context (maps "grateful", "warm", "empathetic") 
+- sad (~3%): Rare
+- surprised (~2%): Very rare
+- laugh (0%): Never triggered in the logs
+
+Model drift: The agent frequently tries non-existent emotions like calm, thoughtful, warm, grateful that get alias-mapped. This suggests the 7-emotion palette is too coarse.
+
+NEUTRAL TONE (loop from/to default_neutral.png):
+- calm
+- engaged +
+- thinking +
+- sad +
+
+POSITIVE TONE (loop from/to default_positive.png):
+- warm
+- gentle
+- happy
+- surprised +
